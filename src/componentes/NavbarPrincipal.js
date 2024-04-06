@@ -11,10 +11,10 @@ const NavbarPincipal =()=> {
         <Navbar className="navBg" bg="black"  data-bs-theme="dark"  expand="lg">
           <Container fluid>
        
-          <Navbar.Brand as={Link}to="home">BMD ENGINEER</Navbar.Brand>
           <Navbar.Toggle  aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav"> 
           <Nav className="me-auto">
+          <Navbar.Brand as={Link}to="home">BMD ENGINEER SOLUTIONS</Navbar.Brand>
             <Nav.Link as={Link}to="home">Inicio</Nav.Link>
             <Nav.Link as={Link}to="actividades">Actividades</Nav.Link>
            
