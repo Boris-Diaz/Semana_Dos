@@ -11,7 +11,7 @@ const NavbarPincipal =()=> {
         <Navbar className="navBg" bg="black"  data-bs-theme="dark"  expand="lg">
           <Container fluid>
        
-          <Navbar.Brand as={Link}to="home">BMD</Navbar.Brand>
+          <Navbar.Brand as={Link}to="home">BMD ENGINEER</Navbar.Brand>
           <Navbar.Toggle  aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav"> 
           <Nav className="me-auto">
