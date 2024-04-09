@@ -4,6 +4,7 @@ import { Table, Button, Container, Modal, ModalBody, FormGroup, ModalFooter, Mod
 
 
 
+
 const data = [
   { id: 1, documento: "123456", nombres: "Juanito Perez", tarea: "Tarea 1", horas: "1" },
   { id: 2, documento: "1789654", nombres: "Jaimio Perez", tarea: "Tarea 2", horas: "10" },
@@ -87,8 +88,8 @@ class Cuerpo extends Component {
   render() {
     return (
       <>
-                 
-                 <br />
+             
+          <br/>
                  
         <Container className='cuerpo'>
    

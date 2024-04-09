@@ -4,7 +4,7 @@ const path = require('path');
 const app = ex();
 
 
-app.use(ex.static("act_uno/build"));
+app.use(ex.static("build"));
 
 app.listen(5500, function() {
     console.log("Servidor en línea")

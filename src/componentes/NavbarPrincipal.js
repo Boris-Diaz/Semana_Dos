@@ -7,7 +7,7 @@ const NavbarPincipal =()=> {
   
 
     return (
-      <>
+      <div className="background">
         <Navbar className="navBg" bg="black"  data-bs-theme="dark"  expand="lg">
           <Container fluid>
        
@@ -21,13 +21,14 @@ const NavbarPincipal =()=> {
           </Nav>
           </Navbar.Collapse>
         </Container>
+       
       </Navbar>
-
+      
        <section>
-        <Outlet></Outlet>
+        <Outlet/>
        </section>
-        
-      </>
+      
+      </div>
     )
   }
 

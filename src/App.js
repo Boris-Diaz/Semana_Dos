@@ -10,10 +10,10 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-            <Route path='/' element={<NavbarPincipal/>}> 
+            <Route path='/' element={<NavbarPincipal/> }> 
             <Route path='/home' element={<Home/>} />
             <Route path='/actividades' element={<Cuerpo/>} />
-            <Route path='*' element={<Navigate replace to="/" />} />
+            <Route path='*' element={<Navigate replace to="<Home/>" />} />
             
             </Route> 
 
